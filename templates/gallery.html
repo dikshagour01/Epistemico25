@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Gallery Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+   
+
+</head>
+
+    <h1 class="wow fadeInUp">Our Highlights</h1> 
+    <div class="container">
+        <img src="{{ url_for('static', filename='images/Epist23/ep1.jpg') }}" alt="Image 1" class="wow fadeIn" data-wow-delay="0.2s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep2.jpg') }}" alt="Image 2" class="wow fadeIn" data-wow-delay="0.4s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep3.jpg') }}" alt="Image 3" class="wow fadeIn" data-wow-delay="0.6s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep4.jpg') }}" alt="Image 4" class="wow fadeIn" data-wow-delay="0.8s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep5.jpg') }}" alt="Image 5" class="wow fadeIn" data-wow-delay="1s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep6.jpg') }}" alt="Image 6" class="wow fadeIn" data-wow-delay="1.2s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep7.jpg') }}" alt="Image 7" class="wow fadeIn" data-wow-delay="1.4s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep8.jpg') }}" alt="Image 8" class="wow fadeIn" data-wow-delay="1.6s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep9.jpg') }}" alt="Image 9" class="wow fadeIn" data-wow-delay="1.8s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep10.jpg') }}" alt="Image 10" class="wow fadeIn" data-wow-delay="2s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep11.jpg') }}" alt="Image 11" class="wow fadeIn" data-wow-delay="2.2s">
+        <img src="{{ url_for('static', filename='images/Epist23/ep12.jpg') }}" alt="Image 12" class="wow fadeIn" data-wow-delay="2.4s">
+    </div>
+    
+{% endblock %}

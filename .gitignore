@@ -1,0 +1,6 @@
+/instance/            # Stores local SQLite DB (if used)
+/venv/                # Virtual environment files
+/database.db          # SQLite database file (if using PostgreSQL instead)
+_pycache_/          # Python cache files
+.env                  # Contains API keys and secrets
+

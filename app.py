@@ -11,13 +11,15 @@
  app.config.from_object(Config)
  
  
- # Initialize Database
- db.init_app(app)
+db.init_app(app)
  migrate = Migrate(app, db)
- @@ -22,8 +19,16 @@
+ 
+ # Register routes
+ app.register_blueprint(app_routes)
+ 
+ @app.route("/gallery")
  def gallery():
      return render_template("gallery.html")
- 
  
   # Setup Admin Panel
  setup_admin(app)

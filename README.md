@@ -1,7 +1,21 @@
 
 # Epistemico25
 
-🎉 **Epistemico25** is the official website for the annual fest **Epistemico 2025**. It provides event information, resources, and an engaging platform for participants and visitors.
+
+🎉 **Epistemico25** is the official website for the **12th edition of Epistemico**, the annual techno-cultural fest of Mahila Engineering College, Ajmer. 
+
+🌟 **Celebrating Innovation, Culture, and Creativity!**  
+Epistemico has been a legacy of Mahila Engineering College, Ajmer, right from its inception. This vibrant fest is a celebration of technocrats and feminism, blending technology, culture, innovation, and literature into an unforgettable experience.  
+
+Organized by the Creative Arts Society, the fest features events under four major committees:
+- **Technical**
+- **Cultural**
+- **Innovation**
+- **Literary**
+
+Participants from various colleges across Rajasthan and nearby states come together to compete, connect, and celebrate!
+
+---
 
 ## 🚀 Overview
 
